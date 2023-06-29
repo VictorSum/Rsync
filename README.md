@@ -1,5 +1,5 @@
 # Домашнее задание к занятию "`Резервное копирование`"
-# `Островский Евгений`
+# `Виктор Сумской`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -34,7 +34,7 @@
 rsync -ac --delete --exclude=".*/" . /tmp/backup
 ```
 
-![rsync1](https://github.com/joos-net/Rsync/blob/main/file/1.png)
+![rsync1](https://github.com/VictorSum/Rsync/blob/main/file/1.png)
 
 
 ---
@@ -59,7 +59,7 @@ fi
 0 * * * * /home/joos/rsync.sh
 ```
 
-![rsync1](https://github.com/joos-net/Rsync/blob/main/file/2.png)
+![rsync1](https://github.com/VictorSum/Rsync/blob/main/file/2.png)
 
 
 ---
@@ -77,7 +77,7 @@ fi
 rsync -a --progress --bwlimit=1000 ttt joos@10.103.7.68:/tmp/ttt
 ```
 
-![rsync1](https://github.com/joos-net/Rsync/blob/main/file/3.png)
+![rsync1](https://github.com/VictorSum/Rsync/blob/main/file/3.png)
 
 ### Задание 4
 
